@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -21,12 +21,12 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 15
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
-    # - repo-name
+     - cov19.github.io
 
 # social_media:
   # behance: your_username
@@ -47,12 +47,22 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: SQL
+    web_url: https://github.com/topics/sql
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
 
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: LaTeX
+    web_url: https://github.com/topics/latex
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
+    
+  - name: Jupyter Notebook
+    web_url: https://github.com/topics/jupyter-notebook
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jupyter-notebook/jupyter-notebook.png
+  
+  - name: Decentralized Internet
+    web_url: https://github.com/topics/decentralized-internet
+    image_url: https://raw.githubusercontent.com/Mentors4EDU/Images/master/Untitled%20design%20(1).png
+    
+  - name: Biostatistical Computing
+    web_url: https://github.com/topics/biostatistical-computing
+    image_url: https://raw.githubusercontent.com/Mentors4EDU/Images/master/biostatistical-computing.png
